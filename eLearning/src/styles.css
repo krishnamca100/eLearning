@@ -1,0 +1,514 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Change Brand Font */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+  color: #F0AAB1;
+}
+
+.navbar {
+	padding:0px !important;
+}
+
+/* Make Header Image Responsive */
+.back-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  border-radius: 0px;
+  margin-top: 74px;
+}
+
+/* Header Image Sub-Title */
+.st {
+  font-size: 24px;
+}
+
+/* Change Footer Social Icon Color */
+a {
+  color:  #007bff;
+}
+a:hover {
+  color: #E994A2;
+}
+.theme-color{
+	background-color: #3D4E5B !important;
+}
+
+.carousel-control-next-icon{
+	background-color:red;
+}
+
+#myAcct{
+	float:right;
+}
+.myaccount-section {
+    width: 100%;
+    text-align: right;
+}
+.myaccount-section span {
+    font-size: 22px;
+    padding: 5px 15px;
+    display: block;
+    font-weight: 600;
+}
+
+ul.navbar-nav.custom-nav {
+    margin: 0 auto !important;
+    padding-left: 0 !important;
+}
+
+.navbar #myMenu .custom-nav .nav-item a {
+    font-size: 18px;
+    padding-right: 35px;
+}
+
+.navbar-brand img {
+    max-width: 151px;
+    max-height: 40px;
+	  margin-left:7px
+}
+
+
+div#owl-slider-image {
+    margin-top: 80px;
+}
+.owl-carousel{
+	border-bottom: 1px solid #ece3e08f;
+}
+
+.owl-carousel .owl-item img {
+    max-height: 500px;
+	/*margin-top:46px;*/
+}
+
+
+.owl-nav {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+button.owl-prev span,
+button.owl-next span {
+    font-size: 90px;
+    color: #0014ff;
+}
+
+button.owl-prev span:hover,
+button.owl-next span:hover,
+button.owl-prev:focus,
+button.owl-next:focus{
+  outline:none;
+}
+
+button.owl-prev{
+  float:left;
+  margin-left: 50px;
+}
+button.owl-next{
+  float:right;
+  margin-right: 50px;
+}
+
+.overlay-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.search-wrapper{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+
+
+.submit-form {
+    width: 400px;
+    height: 520px;
+    background:#a2a2a275;
+    margin: 3% auto 0;
+}
+
+p {
+    margin-top: 15px;
+  /*  padding-bottom:100px; */
+}
+
+.btn{
+	border-radius:25px !important;
+	font-size:14px;
+}
+
+.profile{
+height: 2rem;
+    width: 2rem;
+	border-radius: 50%!important;
+	vertical-align: middle;
+    border-style: none;
+}
+
+.account_icon{
+    border: none;
+    height: 34px;
+    width: 34px;
+    float: right;
+	margin-right:17px;
+}
+.account_icon1{
+	  border: none;
+    height: 34px;
+    width: 34px;
+    float: right;
+	margin-right:-9px;
+}
+
+
+.header_color{
+	background-color:#cacad824;
+}
+
+.input-group.form-1.pl-0 {
+    width: 201px;
+}
+
+  div.vertical-line{
+      width: 1px; 
+      background-color: gray; /* Line color */
+      height: 100%; 
+      float: right; 
+	  margin-top:5px;
+	  margin-right:14px;
+    }
+	
+	
+	
+	
+	
+.dropdown-menu{
+	left:-94px !important;
+	
+}	
+	
+#top-navbar{
+  width: 100%;
+}
+ul.navbar-nav.notification {
+    /* margin-right: -52px; */
+    /* color: black; */
+    margin-left: 17px !important;
+}
+ul.navbar-nav.msg {
+    /* margin-right: -52px; */
+    /* color: black; */
+    margin-left: 11px !important;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu{
+	top:32px !important;
+	padding:0px;
+}
+a.dropdown-item:first-child {
+    background-color: #9595a017;
+}
+.dropdown-item{
+	border-bottom: 1px solid #d4caca40 !important;
+}
+	
+	.bg-custom-1 {
+  background-color: #85144b;
+}
+
+.bg-custom-2 {
+background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+
+.account_icon.account-profile {
+    border-left: 1px solid #e7e7e7;
+    padding-left: 12px;
+}
+
+a.top-search-btn {
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    max-height: 38px;
+    background: #007bff;
+    color:#fff;
+}
+.top-search-btn i{
+  display: block;
+}
+
+.top-search-btn:hover{
+  text-decoration: none;
+}
+div#top-search-section {
+    padding: 5px 7px 5px 0;
+    width: 225px;
+
+}
+
+.header-section {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: #fff;
+}
+
+.dropdown-menu.message img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #c7c6c6;
+}
+
+.dropdown-menu.message .msg-text{
+    display: inline-block;
+    font-size: 14px;
+}
+
+.dropdown-menu.message .dropdown-item{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#dropdown-course {
+    padding-right: 5px;
+}
+.notification-dp{
+  height: 100px;
+  overflow-y: scroll;
+}
+
+
+.col .form-control{
+  border:none;
+}
+.col .form-control:hover{
+  border:none;
+}
+
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+
+.row.topMargin {
+  margin-top: 163px;
+}
+
+
+.menuWidht{
+  float:left;
+  width:278px;
+  margin-top: 21px; 
+ /*margin-top: 66px; */
+  background-color:#1286ca40;
+  margin-left: 5px;
+  height:610px;
+}
+
+
+.menuWidht1{
+    width: 1015px;
+    margin-top: 21px; 
+   /* margin-top: 66px; */
+    left: 17px;
+}
+
+.topSearcBar:focus, .topSearcBar:active, .topSearcBar:hover, .topSearcBar:visited{
+  box-shadow: none!important;
+}
+
+.card{
+  background-color:#fff !important;
+  border:none !important;
+}
+
+.card-body{
+  border: 1px solid #8080801f;
+}
+
+.list-group-item{
+  background-color:#fff !important;
+ /* border-top:1px solid #8080801c !important; */
+  border-right: none!important;
+  border-left: none!important;
+}
+
+
+.list-group-item :hover{
+  background-color:lightblue;
+}
+
+
+.list-group-flush:first-child .list-group-item:first-child {
+  border-right: none;
+  border-top: 1px solid #b5afaf42 !important;
+}
+
+
+.faSearch{
+  margin-right: 5px;
+  margin-top: -10px;
+  color: #28694ed1;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #212121;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.card.menuWidht , .list-group-item.list-group-item-action.listColor{
+  background-color: #8080800f !important;
+  border:none!important;
+}
+
+.maxwidth{
+  width:700px;
+}
+
+.cardYellow{
+  background-color: yellow!important;
+    height: 101px;
+}
+
+.textright{
+  float:right;
+}
+p.card-text.textright {
+  text-align:right;
+}
+
+.profile_image {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%!important;
+  vertical-align: middle;
+  border-style: none;
+  margin-top: 37px;
+  margin-left: 21px;
+  z-index: 1;
+}
+
+card.booking-card{
+  width:300px;
+}
+
+
+
+ul.navbar-nav.anyonedropdown1 {
+  margin-left: -57px;
+}
+
+.textlineheight{
+  line-height: 60px;
+}
+
+.inlineDisplay{
+  display:inline;
+}
+
+.fauser{
+    text-align: right;
+    display: block!important;
+    margin-left: 184px;
+}
+.floatrighttext{
+  margin-right:-190px;
+}
+
+.lock-icon{
+    position: relative;
+    float: right;
+    top: 35px;
+    padding: 9px;
+}
+
+.text-decorate{
+text-shadow: 2px 2px 4px #000000;
+width:290px;
+}
+
+.exclamation-icon{
+    float: right;
+    position: relative;
+    top: 5px;
+    padding-left: 5px;
+  }
+  input#InputPassword1 {
+    width: 379px;
+    font-size: 12px;
+}
+
+button.passbtn {
+  border: none;
+  font-size: 14px;
+  color: darkgray;
+}
+
+.labelfont{
+  font-size:14px;
+}
+
+span.preference {
+  font-size: 18px;
+}
+
+span.fsize{
+  font-size:14px;
+}
+span.ffsize{
+  font-size:15px;
+}
+.fa-2x {
+  /* left: 31px; */
+  font-size: 21px;
+  margin-top: 7px;
+  /* margin-left: 1px; */
+}
+i.far.fa-comment-dots.fa-2x {
+  margin-left: -2px;
+}
+.top-position{
+  margin-top:100px;
+}
+
+.iconColor{
+  color: white;
+  /* padding: 2px; */
+  padding-right: 5px;
+  }
+  
+  .top-positionLogin{
+      margin-top:80px;
+  }
