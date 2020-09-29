@@ -1,0 +1,25 @@
+
+
+
+
+  <app-header *ngIf="router.url == '/'"></app-header>
+  <app-header *ngIf="router.url == '/aboutus'"></app-header>
+  <app-header *ngIf="router.url == '/contact'"></app-header>
+  <app-header *ngIf="router.url == '/service'"></app-header>
+  <app-header2 *ngIf="router.url == '/home/login'"></app-header2>
+  <app-header2 *ngIf="router.url == '/home/register'"></app-header2>
+  <app-header2 *ngIf="router.url == '/home/verify'"></app-header2>
+  <app-header1 *ngIf="router.url == '/account/accountpreference'"></app-header1>
+  <app-header1 *ngIf="router.url == '/account/conceptapp'"></app-header1>
+  <app-header1 *ngIf="router.url == '/account/email'"></app-header1>
+  <app-header1 *ngIf="router.url == '/account/products'"></app-header1>
+  <app-header1 *ngIf="router.url == '/account/profileandvisibility'"></app-header1>
+  <app-header1 *ngIf="router.url == '/account/security'"></app-header1>
+  <app-banner *ngIf="router.url == '/'"></app-banner>
+  
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+
+  
+  
+
